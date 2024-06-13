@@ -1,0 +1,50 @@
+body {
+    background-color: darkgrey;
+}
+
+.container {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 50px 50px 50px;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 2px 0;
+}
+
+#question {
+    color: skyblue;
+    font-size: 30px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: skyblue;
+    color: white;
+    font-size: 20px;
+    border: 1px solid blue;
+    text-align: center;
+    width:  250px;
+    margin: 10px 40px 10px 0;
+    padding: 10px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    cursor: pointer;
+}
+
+#score {
+    color: skyblue;
+    font-size: 30px;   
+    text-align: center;
+}
